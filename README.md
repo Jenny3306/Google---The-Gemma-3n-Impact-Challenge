@@ -2,7 +2,7 @@
 
 ## 🎯 Product Goal
 
-**Talk2TextVN** is an offline speech-to-text application designed to help three main user groups:
+**Talk2TextVN** is an offline speech-to-text application that is designed in combination with Gemma 3n to help three main user groups:
 - **Older Adults**: Individuals who have difficulty typing and would benefit from a voice-to-text solution.
 - **People with Hearing Impairments**: Offering real-time transcription of spoken words.
 - **Users Unfamiliar with Typing**: Providing an easy-to-use, hands-free alternative to typing.
