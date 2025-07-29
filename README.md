@@ -68,6 +68,52 @@ Check out the video demo of **Talk2TextVN** in action:
 
 This project is licensed under the MIT License.
 
+## 🛠️ Troubleshooting
+
+If you encounter issues while using the application, here are a few common solutions:
+
+1. **Audio Not Recognized**: 
+   - Make sure your microphone is correctly configured. If you're using a headset, check if the audio input is set to the correct device in your system settings.
+   - Try restarting the application to reset any input devices.
+
+2. **Dependencies Not Installed**:
+   - Ensure that you've installed all the required dependencies with the following command:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Application Crashes**:
+   - Check the error logs for missing files or incorrect versions of required libraries. You may want to check the version of **Whisper** or **Streamlit**.
+   - Verify that your Python version is compatible with the dependencies. Recommended version: Python 3.7+.
+
+4. **Performance Issues**:
+   - If the app runs slowly, try reducing the audio input size or adjusting the model's parameters in the `config.py` file.
+   - Consider running the application on a machine with better hardware for real-time speech recognition.
+
+If you encounter other issues, please open a GitHub issue, and we'll assist you in resolving it.
+
+## 🔧 Configuration
+
+You can modify some parameters in the `config.py` file to adjust the application's performance:
+
+- **Language Model Selection**: Choose between different Whisper models for varying levels of accuracy and speed.
+- **Text Formatting Options**: Adjust how the final text output is processed. You can enable or disable features such as:
+  - Line breaks after each sentence
+  - Punctuation correction
+  - Automatic paragraphing based on speech pauses
+
+Example configuration:
+```python
+# config.py
+
+# Model selection
+whisper_model = 'whisper-tiny'  # Options: 'whisper-tiny', 'whisper-base', 'whisper-large'
+
+# Text formatting options
+line_breaks = True  # Enable/Disable line breaks after each sentence
+punctuation = True  # Enable/Disable automatic punctuation
+```
+
 ## 🤝 Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository, create a pull request, or open issues for any bugs or feature requests. Please ensure any pull requests follow the project's coding style and include tests where appropriate.
