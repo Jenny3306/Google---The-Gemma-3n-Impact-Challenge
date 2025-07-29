@@ -1,9 +1,5 @@
 
-### **project_plan.md**
-
-```markdown
-# Project Plan: Talk2TextVN
-```
+### Project Plan: Talk2TextVN
 
 ## 🎯 Objective
 
