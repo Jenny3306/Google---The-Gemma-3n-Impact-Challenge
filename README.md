@@ -70,6 +70,6 @@ This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 
-If you'd like to contribute to this project, feel free to fork the repository, create a pull request, or open issues for any bugs or feature requests.
+If you'd like to contribute to this project, feel free to fork the repository, create a pull request, or open issues for any bugs or feature requests. Please ensure any pull requests follow the project's coding style and include tests where appropriate.
 
 ---
